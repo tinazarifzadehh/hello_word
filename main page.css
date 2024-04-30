@@ -1,0 +1,62 @@
+body{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.7;
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 88%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    color: aliceblue;
+    padding-top: 21px;
+    min-height: 60px;
+    background-color: #0f213b;
+    border-bottom: 5px solid #f01919;
+
+}
+.header a{
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.header ul li:hover{
+    color: aliceblue;
+    background-color: #f01919;
+    border-radius: 3px;
+
+}
+.header li{
+    display: inline;
+    padding: 0 20px;
+    float: right;
+}
+.header .logo{
+    float: right;
+}
+.header .logo h1{
+   margin-top: -8px;
+}
+.header .nav{
+    float: left;
+    margin-top: 5px;
+}
+@media(max-width:768px){
+   
+   .header .logo,
+   .header .nav,
+   .header .nav li{
+
+    text-align: center;
+    float: none;
+    width: 100;
+   }
+}
